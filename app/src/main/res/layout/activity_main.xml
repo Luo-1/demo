@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/topBar"
+            android:gravity="center"
+            android:background="#12B7F5"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+        <TextView
+                android:text="标题"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.example.demo.ScrollChangeHeadView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <com.example.demo.CanvasView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.example.demo.CanvasView>
+
+</RelativeLayout>
